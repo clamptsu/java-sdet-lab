@@ -10,6 +10,6 @@ public class Lab02_2 {
         System.out.println("Please enter an integer");
         int num = scanner.nextInt();
         String s = num%2 == 0? "even":"odd";
-        System.out.printf("Your integer is: %s number",s );
+        System.out.printf("Your integer is an %s number",s );
     }
 }
